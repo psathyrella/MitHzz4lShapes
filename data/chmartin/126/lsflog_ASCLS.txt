@@ -1,0 +1,156 @@
+Sender: LSF System <lsfadmin@lxbse06c01>
+Subject: Job 370038279: <makeLimits.lsf.sh ASCLS 126 combine> in cluster batch Done
+
+Job <makeLimits.lsf.sh ASCLS 126 combine> was submitted from host <lxplus410> by user <chmartin> in cluster <batch>.
+Job was executed on host(s) <lxbse06c01>, in queue <2nw>, as user <chmartin> in cluster <batch>.
+</afs/cern.ch/user/c/chmartin> was used as the home directory.
+</afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full> was used as the working directory.
+Started at Thu Feb 21 10:30:52 2013
+Results reported at Fri Feb 22 04:13:53 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+makeLimits.lsf.sh ASCLS 126 combine
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  62941.47 sec.
+    Max Memory :      4575 MB
+    Max Swap   :      4833 MB
+
+    Max Processes  :         8
+    Max Threads    :         9
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/chmartin/370038279> on <lxbse06c01.cern.ch>
+
+LSF job running in:  /afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full with options ASCLS 126
+Runnining both asymptotic frequentist limits for HZZ4L at 126. 
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Median for expected limits: 0.254883
+Sigma  for expected limits: 0.130045
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: 94.3197 (r = 0.87066)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: 76.8407 (r = 0.000166514)
+At r = 2.070660:	q_mu = 10.94227	q_A  = 50.22242	CLsb = 0.00047	CLb  = 0.99992	CLs  = 0.00047
+At r = 1.470660:	q_mu = 3.59730	q_A  = 34.83147	CLsb = 0.02894	CLb  = 0.99997	CLs  = 0.02894
+At r = 1.170660:	q_mu = 1.06448	q_A  = 26.96697	CLsb = 0.15110	CLb  = 0.99998	CLs  = 0.15110
+At r = 1.320660:	q_mu = 2.19408	q_A  = 30.90873	CLsb = 0.06927	CLb  = 0.99998	CLs  = 0.06927
+At r = 1.395480:	q_mu = 2.86402	q_A  = 32.86826	CLsb = 0.04529	CLb  = 0.99997	CLs  = 0.04529
+At r = 1.366585:	q_mu = 2.59781	q_A  = 32.11213	CLsb = 0.05351	CLb  = 0.99997	CLs  = 0.05351
+At r = 1.381765:	q_mu = 2.73653	q_A  = 32.50947	CLsb = 0.04904	CLb  = 0.99997	CLs  = 0.04904
+At r = 1.376029:	q_mu = 2.68381	q_A  = 32.35935	CLsb = 0.05069	CLb  = 0.99997	CLs  = 0.05069
+At r = 1.379073:	q_mu = 2.71174	q_A  = 32.43903	CLsb = 0.04981	CLb  = 0.99997	CLs  = 0.04981
+
+ -- Asymptotic -- 
+Observed Limit: r < 1.3791
+Expected  2.5%: r < 0.1115
+Expected 16.0%: r < 0.1625
+Expected 50.0%: r < 0.2549
+Expected 84.0%: r < 0.4113
+Expected 97.5%: r < 0.6415
+
+Done in 1048.91 min (cpu), 1062.57 min (real)
+
+Job finished at Fri Feb 22 04:13:52 CET 2013 on node 
+ under linux version Scientific Linux CERN SLC release 5.8 (Boron)
+
+
+CERN statistics: This job used 38:06:18 NCU hours (137178 NCU seconds)
+
+CERN statistics: This job used 38:06:18 KSI2K hours (137178 KSI2K seconds)
+
+KSI2K = kilo-SpecInt2000 benchmark units = 1.00 NCU
+Sender: LSF System <lsfadmin@lxbse06c05>
+Subject: Job 372124019: <makeLimits.lsf.sh ASCLS 126 combine> in cluster batch Done
+
+Job <makeLimits.lsf.sh ASCLS 126 combine> was submitted from host <lxplus443> by user <chmartin> in cluster <batch>.
+Job was executed on host(s) <lxbse06c05>, in queue <2nw>, as user <chmartin> in cluster <batch>.
+</afs/cern.ch/user/c/chmartin> was used as the home directory.
+</afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full> was used as the working directory.
+Started at Thu Feb 28 01:41:37 2013
+Results reported at Thu Feb 28 22:33:57 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+makeLimits.lsf.sh ASCLS 126 combine
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :  73996.77 sec.
+    Max Memory :      4577 MB
+    Max Swap   :      4861 MB
+
+    Max Processes  :        12
+    Max Threads    :        13
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/chmartin/372124019> on <lxbse06c05.cern.ch>
+
+LSF job running in:  /afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full with options ASCLS 126
+Runnining both asymptotic frequentist limits for HZZ4L at 126. 
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Median for expected limits: 0.254883
+Sigma  for expected limits: 0.130045
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: 94.3197 (r = 0.87066)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: 76.8407 (r = 0.000166514)
+At r = 2.070660:	q_mu = 10.94227	q_A  = 50.22242	CLsb = 0.00047	CLb  = 0.99992	CLs  = 0.00047
+At r = 1.470660:	q_mu = 3.59730	q_A  = 34.83147	CLsb = 0.02894	CLb  = 0.99997	CLs  = 0.02894
+At r = 1.170660:	q_mu = 1.06448	q_A  = 26.96697	CLsb = 0.15110	CLb  = 0.99998	CLs  = 0.15110
+At r = 1.320660:	q_mu = 2.19408	q_A  = 30.90873	CLsb = 0.06927	CLb  = 0.99998	CLs  = 0.06927
+At r = 1.395480:	q_mu = 2.86402	q_A  = 32.86826	CLsb = 0.04529	CLb  = 0.99997	CLs  = 0.04529
+At r = 1.366585:	q_mu = 2.59781	q_A  = 32.11213	CLsb = 0.05351	CLb  = 0.99997	CLs  = 0.05351
+At r = 1.381765:	q_mu = 2.73653	q_A  = 32.50947	CLsb = 0.04904	CLb  = 0.99997	CLs  = 0.04904
+At r = 1.376029:	q_mu = 2.68381	q_A  = 32.35935	CLsb = 0.05069	CLb  = 0.99997	CLs  = 0.05069
+At r = 1.379073:	q_mu = 2.71174	q_A  = 32.43903	CLsb = 0.04981	CLb  = 0.99997	CLs  = 0.04981
+
+ -- Asymptotic -- 
+Observed Limit: r < 1.3791
+Expected  2.5%: r < 0.1115
+Expected 16.0%: r < 0.1625
+Expected 50.0%: r < 0.2549
+Expected 84.0%: r < 0.4113
+Expected 97.5%: r < 0.6415
+
+Done in 1233.16 min (cpu), 1248.54 min (real)
+
+Job finished at Thu Feb 28 22:30:36 CET 2013 on node 
+ under linux version Scientific Linux CERN SLC release 5.8 (Boron)
+
+
+CERN statistics: This job used 44:47:53 NCU hours (161273 NCU seconds)
+
+CERN statistics: This job used 44:47:53 KSI2K hours (161273 KSI2K seconds)
+
+KSI2K = kilo-SpecInt2000 benchmark units = 1.00 NCU

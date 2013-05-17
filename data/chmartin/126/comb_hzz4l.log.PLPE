@@ -1,0 +1,18 @@
+>>> including systematics
+>>> method used to compute upper limit is ProfileLikelihood
+>>> random number generator seed is 123456
+Computing limit starting from expected outcome
+
+ -- Profile Likelihood -- 
+p-value of background: 3.72742e-13
+       (Significance = 7.17082)
+Done in 82.66 min (cpu), 83.87 min (real)
+>>> including systematics
+>>> method used to compute upper limit is ProfileLikelihood
+>>> random number generator seed is 123456
+Computing limit starting from expected outcome
+
+ -- Profile Likelihood -- 
+p-value of background: 3.72742e-13
+       (Significance = 7.17082)
+Done in 102.25 min (cpu), 109.06 min (real)

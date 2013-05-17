@@ -1,0 +1,110 @@
+Sender: LSF System <lsfadmin@lxbrk36c07>
+Subject: Job 370062327: <makeLimits.lsf.sh PLPE 126 combine> in cluster batch Done
+
+Job <makeLimits.lsf.sh PLPE 126 combine> was submitted from host <lxplus410> by user <chmartin> in cluster <batch>.
+Job was executed on host(s) <lxbrk36c07>, in queue <2nw>, as user <chmartin> in cluster <batch>.
+</afs/cern.ch/user/c/chmartin> was used as the home directory.
+</afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full> was used as the working directory.
+Started at Sat Feb 23 13:56:56 2013
+Results reported at Sat Feb 23 16:06:27 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+makeLimits.lsf.sh PLPE 126 combine
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :   7409.58 sec.
+    Max Memory :      3565 MB
+    Max Swap   :      4640 MB
+
+    Max Processes  :         8
+    Max Threads    :         9
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/chmartin/370062327> on <lxbrk36c07.cern.ch>
+
+LSF job running in:  /afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full with options PLPE 126
+RMAX = 1
+>>> including systematics
+>>> method used to compute upper limit is ProfileLikelihood
+>>> random number generator seed is 123456
+Computing limit starting from expected outcome
+
+ -- Profile Likelihood -- 
+p-value of background: 3.72742e-13
+       (Significance = 7.17082)
+Done in 82.66 min (cpu), 83.87 min (real)
+Done PLPE for HZZ4L at 126
+
+Job finished at Sat Feb 23 16:06:17 CET 2013 on node 
+ under linux version Scientific Linux CERN SLC release 5.8 (Boron)
+
+
+CERN statistics: This job used 3:45:38 NCU hours (13538 NCU seconds)
+
+CERN statistics: This job used 3:45:38 KSI2K hours (13538 KSI2K seconds)
+
+KSI2K = kilo-SpecInt2000 benchmark units = 1.00 NCU
+Sender: LSF System <lsfadmin@lxbsu2603>
+Subject: Job 372122731: <makeLimits.lsf.sh PLPE 126 combine -s> in cluster batch Done
+
+Job <makeLimits.lsf.sh PLPE 126 combine -s> was submitted from host <lxplus443> by user <chmartin> in cluster <batch>.
+Job was executed on host(s) <lxbsu2603>, in queue <2nw>, as user <chmartin> in cluster <batch>.
+</afs/cern.ch/user/c/chmartin> was used as the home directory.
+</afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full> was used as the working directory.
+Started at Wed Feb 27 16:16:10 2013
+Results reported at Wed Feb 27 18:58:03 2013
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+makeLimits.lsf.sh PLPE 126 combine -s
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :   8906.67 sec.
+    Max Memory :      3565 MB
+    Max Swap   :      4640 MB
+
+    Max Processes  :         8
+    Max Threads    :         9
+
+The output (if any) follows:
+
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/chmartin/372122731> on <lxbsu2603.cern.ch>
+
+LSF job running in:  /afs/cern.ch/work/c/chmartin/private/GetInputs3Dstable1/CreateDatacards/CMSSW_6_1_0/src/MORIOND_rebin_tau_Full with options PLPE 126 -s
+RMAX = 1
+>>> including systematics
+>>> method used to compute upper limit is ProfileLikelihood
+>>> random number generator seed is 123456
+Computing limit starting from expected outcome
+
+ -- Profile Likelihood -- 
+p-value of background: 3.72742e-13
+       (Significance = 7.17082)
+Done in 102.25 min (cpu), 109.06 min (real)
+Done PLPE for HZZ4L at 126
+
+Job finished at Wed Feb 27 18:58:00 CET 2013 on node 
+ under linux version Scientific Linux CERN SLC release 5.8 (Boron)
+
+
+CERN statistics: This job used 4:13:36 NCU hours (15216 NCU seconds)
+
+CERN statistics: This job used 4:13:36 KSI2K hours (15216 KSI2K seconds)
+
+KSI2K = kilo-SpecInt2000 benchmark units = 1.00 NCU
